@@ -8,7 +8,7 @@
 
 Name: compat-python24-elementtree
 Version: 1.2.6
-Release: 6%{?dist}
+Release: 7%{?dist}
 Summary: Fast XML parser and writer
 Group: Development/Libraries
 License: PSF
@@ -67,6 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 %{python_sitearch}/*.so
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 1.2.6-7
+- rebuild for new F11 features
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 1.2.6-6
 - rebuild for RPM Fusion
 
